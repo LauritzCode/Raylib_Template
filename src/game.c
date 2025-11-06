@@ -1,46 +1,46 @@
 #include "game.h"
 
 const Color COLORS[] = {
-    // COOL SPACE BLUES
-    (Color){90, 140, 255, 255},  // soft bright blue
-    (Color){70, 110, 210, 255},  // deep sky blue
-    (Color){50, 85, 160, 255},   // muted space blue
-    (Color){30, 60, 120, 255},   // navy-tinted blue
-    (Color){110, 180, 255, 255}, // pastel blue highlight
+    // BLUES
+    (Color){90, 140, 255, 255},
+    (Color){70, 110, 210, 255},
+    (Color){50, 85, 160, 255},
+    (Color){30, 60, 120, 255},
+    (Color){110, 180, 255, 255},
 
-    // PURPLES & VIOLETS
-    (Color){150, 120, 255, 255}, // gentle violet
-    (Color){120, 90, 210, 255},  // soft deep violet
-    (Color){100, 70, 180, 255},  // nebula purple
-    (Color){170, 140, 255, 255}, // pastel purple
-    (Color){80, 60, 140, 255},   // dark space purple
+    // PURPLES
+    (Color){150, 120, 255, 255},
+    (Color){120, 90, 210, 255},
+    (Color){100, 70, 180, 255},
+    (Color){170, 140, 255, 255},
+    (Color){80, 60, 140, 255},
 
-    // MAGENTA / COSMIC PINK
-    (Color){210, 130, 255, 255}, // pastel magenta
-    (Color){190, 100, 200, 255}, // muted magenta
-    (Color){160, 70, 170, 255},  // deep cosmic magenta
-    (Color){230, 160, 255, 255}, // bright nebula pink (still muted)
+    // MAGENTA
+    (Color){210, 130, 255, 255},
+    (Color){190, 100, 200, 255},
+    (Color){160, 70, 170, 255},
+    (Color){230, 160, 255, 255},
 
     // TEALS / CYANS
-    (Color){80, 200, 220, 255},  // cyan-ish but soft
-    (Color){60, 160, 175, 255},  // ocean teal
-    (Color){40, 120, 130, 255},  // deep teal (good contrast)
-    (Color){100, 220, 235, 255}, // pastel cyan
+    (Color){80, 200, 220, 255},
+    (Color){60, 160, 175, 255},
+    (Color){40, 120, 130, 255},
+    (Color){100, 220, 235, 255},
 
-    // SOFT ORANGES (star accents)
-    (Color){255, 150, 80, 255}, // warm star orange
-    (Color){220, 120, 70, 255}, // muted orange/red
-    (Color){200, 100, 60, 255}, // dark orange
+    // ORANGES
+    (Color){255, 150, 80, 255},
+    (Color){220, 120, 70, 255},
+    (Color){200, 100, 60, 255},
 
-    // REDS (subtle, not neon)
-    (Color){180, 60, 70, 255},  // cosmic muted red
-    (Color){150, 40, 50, 255},  // deep red
-    (Color){210, 90, 100, 255}, // pastel red/pink mix
+    // REDS
+    (Color){180, 60, 70, 255},
+    (Color){150, 40, 50, 255},
+    (Color){210, 90, 100, 255},
 
-    // DUSTY SPACE TONES
-    (Color){120, 120, 160, 255}, // dusty twilight purple
-    (Color){100, 100, 130, 255}, // muted space grey-purple
-    (Color){80, 80, 110, 255},   // dark desaturated indigo
+    // DUSTY
+    (Color){120, 120, 160, 255},
+    (Color){100, 100, 130, 255},
+    (Color){80, 80, 110, 255},
 };
 
 const int COLORS_COUNT = sizeof(COLORS) / sizeof(COLORS[0]);
